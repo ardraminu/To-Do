@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do items </title>
+    <style>
+        body{
+           background-color:aqua;
+           padding-top:50px;
+
+        }
+
+        .container{
+               max-width:550px;
+               margin :auto;
+
+               background-color:rgb(182, 184, 184);;
+               box-shadow:1px 1px 15px rgb(182, 184, 184);
+               border-radius:12px;
+
+
+        input#submit{
+         background-color:grey;
+         color:white;
+         border:radius:6px;
+         padding:8px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    {% block content %}
+
+    {% endblock content %}
+</div>
+
+</body>
+</html>
